@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  background-image: url("../public/background2.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
