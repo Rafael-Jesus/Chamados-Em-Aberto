@@ -117,16 +117,23 @@ const App = () => {
   }, []);
 
   return (
+
+  <body>
+        {/* <div class="sign">
+    <span class="fast-flicker">C</span>HA<span class="flicker">MA</span>
+  </div> */}
     <div className="App">
       {/* <h1 style={{'margin-top': 0}}>CHAMADOS EM ABERTO POR DIA</h1> */}
-      <Chart
+     <Chart
         chartType="ScatterChart"
         width="100%"
         height="100%"
         data={dados}
         options={options}
       />
-    </div>
+   </div>
+
+</body>
   );
 };
 
